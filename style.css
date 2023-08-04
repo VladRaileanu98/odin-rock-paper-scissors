@@ -89,6 +89,7 @@ body{
 .rock, .paper, .scissors{
     width: 120px;
     height: 120px;
+    font-size: 100px;
     background-color: bisque;
     border-radius: 5px;
     border: 2px solid black;
@@ -121,4 +122,18 @@ body{
     font-style: italic;
     font-size: 15px;
     font-weight: bold;
+}
+
+.option1{
+    font-size: 70px;
+    font-style:italic;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.option2{
+    font-size: 70px;
+    font-style:italic;
+    font-weight: bold;
+    margin-top: -10px;
 }
