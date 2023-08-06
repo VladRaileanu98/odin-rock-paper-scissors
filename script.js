@@ -16,11 +16,8 @@ function getComputerChoice() {
     return value;
 }
 
-let choice = getComputerChoice();
-console.log("generated value: " + choice);
 
 function playGame(playerSelection, computerSelection) {
-    playerSelection = "rock";
     computerSelection = getComputerChoice();
     console.log(playerSelection + " vs " + computerSelection);
     let result;
@@ -41,13 +38,9 @@ function playGame(playerSelection, computerSelection) {
     return result;
 }
 
-
-
-
 let playerSelection;
 let computerSelection;
-let result = playGame(playerSelection, computerSelection);
-console.log(result);
+let result;
 
 //======================
 

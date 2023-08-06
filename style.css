@@ -96,6 +96,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+
+
+.player > *:active{
+    background-color: rgb(70, 201, 70);
+}
+.computer > *:active{
+    background-color: rgb(231, 87, 87);
 }
 
 
